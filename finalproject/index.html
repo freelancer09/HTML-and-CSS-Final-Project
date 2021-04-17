@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Streaming directory" />
+        <meta name="keywords" content="streaming, video, movies, subscription" />
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/myscreen.css" media="all"/>
+        <link rel="stylesheet" href="css/myprint.css" media="print"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">	
+        <title>Video Streaming</title>
+    </head>
+    <body>
+        <header>
+            <img src="media/earth.jpg" style="float:left; max-width:200px; width:20%; height:auto;" alt="online internet streaming">
+            <img src="media/cinema.jpg" style="float:right; max-width:200px; width:20%; height:auto;" alt="movie film projector">
+            <h1>Video Streaming</h1>
+        </header>
+        <section class="row">
+            <nav id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; Close</a>
+                <ul>                    
+                    <li><a href="https://www.amazon.com/gp/video/storefront/"><i class="fa fa-tv">Amazon Prime Video</i></a></li>
+                    <li><a href="http://www.disneyplus.com"><i class="fa fa-tv">Disney+</i></a></li>
+                    <li><a href="http://www.hbomax.com"><i class="fa fa-tv">HBO Max</i></a></li>                    
+                    <li><a href="http://www.hulu.com"><i class="fa fa-tv">Hulu</i></a></li>
+                    <li><a href="http://www.netflix.com"><i class="fa fa-tv">Netflix</i></a></li>
+                    <li><a href="http://www.youtube.com"><i class="fa fa-tv">YouTube</i></a></li>
+                </ul>
+                <img src="media/film.png" width="100%" height="auto" style="background-position:lower left; max-width:200px;" alt="Movie film">
+            </nav>
+            <article id="main" class="col-6 col-m-9">
+                <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; Examples</span>
+                <h2>What is it?</h2>
+                Streaming media is multimedia that is constantly received by and presented to an end user while being delivered by a provider over the Internet. 
+                The verb to stream refers to the process of delivering or obtaining media in a continuous manner from a particular source. Streaming refers to the 
+                delivery method of the medium, rather than the medium itself. Distinguishing delivery method from the media distributed applies specifically to 
+                telecommunications networks, as most of the traditional media delivery systems are either inherently streaming (e.g. radio, television) or inherently
+                non-streaming (e.g. books, videotape, audio CDs). There are challenges with streaming content on the Internet. For example, users whose Internet 
+                connection lacks sufficient bandwidth may experience stops, lags, or slow buffering of the content. And users lacking compatible hardware or 
+                software systems may be unable to stream certain content. With the use of buffering content just a few seconds in advance, the quality can get much better.
+                <br><br>
+
+                Livestreaming is the delivery of Internet content in real-time much as live television broadcasts content over the airwaves via a television signal. 
+                Livestreaming requires a form of source media (e.g. a video camera, an audio interface, screen capture software), an encoder to digitize the content, a 
+                media publisher, and a content delivery network to distribute and deliver the content. Livestreaming does not need to be recorded at the origination point, 
+                although it frequently is.
+                <br><br>
+
+                Streaming is an alternative to file downloading, a process in which the end-user obtains the entire file for the content before watching or listening to 
+                it. Through streaming, an end-user can use their media player to start playing digital video or digital audio content before the entire file has been 
+                transmitted. The term "streaming media" can apply to media other than video and audio, such as live closed captioning, ticker tape, and real-time text, 
+                which are all considered "streaming text".
+                <br><br>
+
+                Nowadays streaming is most prevalent in many video on demand and streaming television services. Some popular streaming services include Netflix, 
+                Disney+, HBO Max, Hulu, Paramount+, Peacock, Prime Video, YouTube, and other sites which stream films and television shows; Apple Music, YouTube Music 
+                and Spotify, which stream music; and video game live streaming services such as Twitch.
+                <br><br>
+
+                <h2>What factors slow down streaming?</h2>
+                <h3>On the network side:</h3>
+                <ul>
+                    <li>Network latency: A variety of factors impact latency, including where the content that users are trying to access is stored.</li>
+                    <li>Network congestion: If too much data is sent through the network, this can degrade streaming performance.</li>
+                </ul>                
+
+                <h3>On the user side:</h3>
+                <ul>
+                    <li>WiFi problems: Restarting the LAN router, or switching to Ethernet instead of WiFi, can help improve streaming performance.</li>
+                    <li>Slowly performing client devices: To play videos takes a good amount of processing power. If the device streaming the video has a 
+                        lot of other processes running or is just slow in general, streaming performance can be impacted.</li>
+                    <li>Not enough bandwidth: For streaming video, home networks need about 4 Mbps of bandwidth; for high-definition video, they will likely need more.</li>
+                </ul>
+                <br><br>
+
+                <cite><small>
+                    Retrieved from Wikipedia on March 29, 2021<br>
+                    <a href="https://en.wikipedia.org/wiki/Streaming_media">https://en.wikipedia.org/wiki/Streaming_media</a><br>
+                    Retrieved from CloudFlare on April 14, 2021<br>
+                    <a href="https://www.cloudflare.com/learning/video/what-is-streaming/">https://www.cloudflare.com/learning/video/what-is-streaming/</a>
+                </small></cite>
+
+            </article>
+            <aside class="col-3 col-m-12">
+                <img alt="movie phone couch"  src="media/mobile-phone.jpg" style="padding:10px; max-width:100%;" /> 
+            </aside>
+        </section>
+        <footer class="col-12 col-m-12">
+            <p>&copy; Michael McLaughlin <a href="mailto:mclaug31@mail.nmc.edu">(mclaug31@mail.nmc.edu)</a></p>
+        </footer>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").className = "col-3 col-m-3";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").className = "";
+            }
+        </script>
+    </body>
+</html>
